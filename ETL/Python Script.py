@@ -33,7 +33,7 @@ gamecountlink = "https://api.igdb.com/v4/multiquery"
 gamecountreq = req.post(url=gamecountlink,data=gamecountbody,headers=header)
 gamecountJSON = gamecountreq.json()[0]['count']
 
-#Extract data from api, with offset increasing to grab all available data and bypass request limit.
+#Extract data from api, with offset increasing to grab all available data and work around the request limit of 500 records.
 offset = 0
 gameslink = 'https://api.igdb.com/v4/games'
 while len(Gamelist) < gamecountJSON:
