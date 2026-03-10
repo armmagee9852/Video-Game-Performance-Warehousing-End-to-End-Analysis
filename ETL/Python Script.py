@@ -75,6 +75,7 @@ VideoGamesDf = VideoGamesDf.rename(columns={'genresupdated':'genre','genreidupda
 VideoGamesDf['total_rating'] = round(VideoGamesDf['total_rating'],1)
 VideoGamesDf
 
+#Export dataframe as a table to Snowflake for data modeling.
 success, nchunks, nrows, output = write_pandas(
     conn,
     VideoGamesDf,
