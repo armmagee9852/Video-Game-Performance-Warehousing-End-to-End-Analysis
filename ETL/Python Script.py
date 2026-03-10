@@ -1,8 +1,6 @@
 import pandas as pd
 import requests as request
-import matplotlib.pyplot as mat
 import snowflake.connector
-import psycopg2
 from snowflake.connector.pandas_tools import write_pandas
 import requests as req
 import time
