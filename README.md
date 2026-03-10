@@ -19,6 +19,11 @@ Project utilizing the ETL Process, using Python for data extraction from an API 
   5. The scatter plot reveals that over time, game ratings have generally increased over the years. Since we've already established that the medium of platform or genre lead to marginal difference in rating variation, this fairly strong correlation could signify that game rating is more affected by increases in game quality rather than increases in game distribution.
   6. Games with localizations in Korea frequently have higher ratings on average. While this could be a matter of user preference in quality, another reasoning could be that higher quality games have localizations for these areas.
 
+# Decision-Making
+1. Game quality should be prioritized before distribution through different mediums.
+2. Thorough quality checks and game testing before release.
+3. Public testing stages through beta release. Allows more people to play, get a "feel" for game performance, and identify a larger number of bugs not identified by testing teams.
+
 # Dashboard Preview
 <img width="1317" height="745" alt="Updated Dashboard" src="https://github.com/user-attachments/assets/7202b9a4-6df3-48bc-87f8-ab80080b1fc2" />
 
