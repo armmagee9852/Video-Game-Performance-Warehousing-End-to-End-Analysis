@@ -1,5 +1,5 @@
 CREATE TABLE GenreDim(
-genre_id integer unique,
+genre_id integer primary key,
 genre_name varchar(50)
 );
 
