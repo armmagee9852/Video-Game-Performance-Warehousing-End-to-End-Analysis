@@ -16,7 +16,7 @@ Project utilizing the ETL Process, using Python for data extraction from an API 
   2. While Xbox as a platform family (which includes each generation of Xbox) has the highest rating, Nintendo and PC lead in volume of games peaking towards 2020 and then steadily declining.
   3. In the more recent years, PC has had more releases than any platform. Nintendo previously holds this most due to Nintendo's longevity over PC.
   4. All of the most leading games genres all have a general consensus on applying to strategy and problem solving.
-  5. The scatter plot reveals that over time, game ratings have generally increased over the years. Since we've already established that the medium of platform or genre lead to marginal difference in rating variation, this fairly strong correlation could signify that game rating is more affected by increases in game quality rather than increases in game distribution.
+  5. The scatter plot reveals that over time, game ratings have generally increased over the years. Since we've already established that the medium of platform or genre lead to marginal difference in rating variation, this  correlation could signify that game quality is an associated factor rather than game distribution.
   6. Games with localizations in Korea frequently have higher ratings on average. While this could be a matter of user preference in quality, another reasoning could be that higher quality games have localizations for these areas.
 
 # Decision-Making
